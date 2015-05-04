@@ -8,8 +8,6 @@
         Txus Ordorika
     </author>
 
-    <content src="index.html" />
-
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
 
