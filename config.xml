@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8' ?>
 <widget id="com.yoursite" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0">
     <name>My site</name>
     <description>
@@ -17,7 +16,7 @@
     <cocoon:plugin name="com.ludei.webviewplus.ios" />
     <cocoon:plugin name="com.ludei.webviewplus.android" />
 
-    <plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="cordova-plugin-whitelist" version="1">
       <access origin="*" />
       <allow-intent href="http://*/*" />
       <allow-intent href="https://*/*" />
@@ -112,4 +111,3 @@
         <splash height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
     </platform>
 </widget>
-plugin
