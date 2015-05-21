@@ -17,6 +17,8 @@
     <cocoon:plugin name="com.ludei.webviewplus.android" />
 
     <plugin name="cordova-plugin-whitelist" version="1"/>
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
